@@ -1,0 +1,1277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Wed Jul 08 20:14:33 COT 2020</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Date">Date</td>
+<td class="Thread">Thread</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="LineOfCaller">LineOfCaller</td>
+<td class="Message">Message</td>
+</tr>
+
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Wed Jul 08 20:14:34 COT 2020</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Date">Date</td>
+<td class="Thread">Thread</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="LineOfCaller">LineOfCaller</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Date">20:14:34.817</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.IntranetApplication</td>
+<td class="LineOfCaller">50</td>
+<td class="Message">Starting IntranetApplication on DESKTOP-Q08QK9O with PID 12640 (C:\Users\Alex\Documents\ooo\administrador-registros\mod-Administrador\target\classes started by Alex in C:\Users\Alex\Documents\ooo\administrador-registros\mod-Administrador)</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:14:34.830</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.IntranetApplication</td>
+<td class="LineOfCaller">675</td>
+<td class="Message">No active profile set, falling back to default profiles: default</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:14:35.716</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor</td>
+<td class="LineOfCaller">227</td>
+<td class="Message">Devtools property defaults active! Set &#39;spring.devtools.add-properties&#39; to &#39;false&#39; to disable</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:14:35.718</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor</td>
+<td class="LineOfCaller">227</td>
+<td class="Message">For additional web related logging consider setting the &#39;logging.level.web&#39; property to &#39;DEBUG&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:14:39.506</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.web.embedded.tomcat.TomcatWebServer</td>
+<td class="LineOfCaller">90</td>
+<td class="Message">Tomcat initialized with port(s): 8083 (http)</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:14:39.578</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.coyote.http11.Http11NioProtocol</td>
+<td class="LineOfCaller">173</td>
+<td class="Message">Initializing ProtocolHandler [&quot;http-nio-8083&quot;]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:14:39.653</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.catalina.core.StandardService</td>
+<td class="LineOfCaller">173</td>
+<td class="Message">Starting service [Tomcat]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:14:39.654</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.catalina.core.StandardEngine</td>
+<td class="LineOfCaller">173</td>
+<td class="Message">Starting Servlet engine: [Apache Tomcat/9.0.17]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:14:40.087</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]</td>
+<td class="LineOfCaller">173</td>
+<td class="Message">Initializing Spring embedded WebApplicationContext</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:14:40.089</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.web.context.ContextLoader</td>
+<td class="LineOfCaller">296</td>
+<td class="Message">Root WebApplicationContext: initialization completed in 4369 ms</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:14:40.968</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor</td>
+<td class="LineOfCaller">171</td>
+<td class="Message">Initializing ExecutorService &#39;applicationTaskExecutor&#39;</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:14:42.836</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer</td>
+<td class="LineOfCaller">57</td>
+<td class="Message">LiveReload server is running on port 35729</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:14:42.936</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.coyote.http11.Http11NioProtocol</td>
+<td class="LineOfCaller">173</td>
+<td class="Message">Starting ProtocolHandler [&quot;http-nio-8083&quot;]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:14:43.029</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.web.embedded.tomcat.TomcatWebServer</td>
+<td class="LineOfCaller">204</td>
+<td class="Message">Tomcat started on port(s): 8083 (http) with context path &#39;&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:14:43.043</td>
+<td class="Thread">restartedMain</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.IntranetApplication</td>
+<td class="LineOfCaller">59</td>
+<td class="Message">Started IntranetApplication in 9.296 seconds (JVM running for 14.0)</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:15:21.850</td>
+<td class="Thread">http-nio-8083-exec-1</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]</td>
+<td class="LineOfCaller">173</td>
+<td class="Message">Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:15:21.851</td>
+<td class="Thread">http-nio-8083-exec-1</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.web.servlet.DispatcherServlet</td>
+<td class="LineOfCaller">524</td>
+<td class="Message">Initializing Servlet &#39;dispatcherServlet&#39;</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:15:21.875</td>
+<td class="Thread">http-nio-8083-exec-1</td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.web.servlet.DispatcherServlet</td>
+<td class="LineOfCaller">546</td>
+<td class="Message">Completed initialization in 22 ms</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:15:31.274</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.loginService</td>
+<td class="LineOfCaller">30</td>
+<td class="Message"> Usuario a verificar: admin</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:15:31.276</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.loginService</td>
+<td class="LineOfCaller">35</td>
+<td class="Message"> Cantida de headers  4</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:15:31.461</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.loginService</td>
+<td class="LineOfCaller">38</td>
+<td class="Message"> Body Response ***** : true</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:15:31.462</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.LoginController</td>
+<td class="LineOfCaller">47</td>
+<td class="Message">Usuario valido ingreso exitoso</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:15:31.492</td>
+<td class="Thread">http-nio-8083-exec-7</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:15:31.494</td>
+<td class="Thread">http-nio-8083-exec-7</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:15:31.495</td>
+<td class="Thread">http-nio-8083-exec-7</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:15:31.496</td>
+<td class="Thread">http-nio-8083-exec-7</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:17:49.883</td>
+<td class="Thread">http-nio-8083-exec-7</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:17:49.885</td>
+<td class="Thread">http-nio-8083-exec-7</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:17:49.886</td>
+<td class="Thread">http-nio-8083-exec-7</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:17:49.887</td>
+<td class="Thread">http-nio-8083-exec-7</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:18:12.338</td>
+<td class="Thread">http-nio-8083-exec-9</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:18:12.340</td>
+<td class="Thread">http-nio-8083-exec-9</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:18:12.343</td>
+<td class="Thread">http-nio-8083-exec-9</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:18:12.344</td>
+<td class="Thread">http-nio-8083-exec-9</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:18:26.869</td>
+<td class="Thread">http-nio-8083-exec-9</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.loginService</td>
+<td class="LineOfCaller">30</td>
+<td class="Message"> Usuario a verificar: admin</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:18:26.875</td>
+<td class="Thread">http-nio-8083-exec-9</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.loginService</td>
+<td class="LineOfCaller">35</td>
+<td class="Message"> Cantida de headers  4</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:18:26.970</td>
+<td class="Thread">http-nio-8083-exec-9</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.loginService</td>
+<td class="LineOfCaller">38</td>
+<td class="Message"> Body Response ***** : true</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:18:26.972</td>
+<td class="Thread">http-nio-8083-exec-9</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.LoginController</td>
+<td class="LineOfCaller">47</td>
+<td class="Message">Usuario valido ingreso exitoso</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:18:26.988</td>
+<td class="Thread">http-nio-8083-exec-3</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:18:26.989</td>
+<td class="Thread">http-nio-8083-exec-3</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:18:26.992</td>
+<td class="Thread">http-nio-8083-exec-3</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:18:26.993</td>
+<td class="Thread">http-nio-8083-exec-3</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:18:53.123</td>
+<td class="Thread">http-nio-8083-exec-3</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:18:53.130</td>
+<td class="Thread">http-nio-8083-exec-3</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:18:53.134</td>
+<td class="Thread">http-nio-8083-exec-3</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:18:53.136</td>
+<td class="Thread">http-nio-8083-exec-3</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:22:35.167</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:22:35.168</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:22:35.170</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:22:35.171</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:23:09.677</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">72</td>
+<td class="Message">fechas ingresadas</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:23:09.682</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">78</td>
+<td class="Message">Las fechas se pueden consultar</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:23:09.684</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">57</td>
+<td class="Message">Lo params object are: Reporte [areasUniminuto=18, nivelSatisfaccion=98,90,70,45, fechainitemp=2020-06-01, fechafintemp=2020-07-08, errorValidFormu=null]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:23:09.690</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">58</td>
+<td class="Message">Lo params are: [areas:&quot;18&quot;, nivelSatisfaccion:&quot;98,90,70,45&quot;, fecha:&quot;2020-06-01&quot;, fechaF:&quot;2020-07-08&quot;, Content-Type:&quot;application/json&quot;, Accept:&quot;application/json&quot;]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:23:10.074</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">62</td>
+<td class="Message">Response web service [{fecha_registro=2020-06-06 19:14:00, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-06 19:14:21, nivel_Satisfaccion=Satisfeho, nombre_Area=REGISTRO}, {fecha_registro=2020-06-13 15:55:32, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:05:17, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:09:31, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:10:55, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:15:02, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:22:17, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:28:25, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:34:20, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-16 19:52:17, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:31:30, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:06, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:18, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:29, nivel_Satisfaccion=Muy insatisfecho, nombre_Area=SALUD}]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:23:10.075</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">95</td>
+<td class="Message">La respuesta del servicio es la siguiente: 
+[{fecha_registro=2020-06-06 19:14:00, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-06 19:14:21, nivel_Satisfaccion=Satisfeho, nombre_Area=REGISTRO}, {fecha_registro=2020-06-13 15:55:32, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:05:17, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:09:31, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:10:55, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:15:02, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:22:17, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:28:25, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:34:20, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-16 19:52:17, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:31:30, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:06, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:18, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:29, nivel_Satisfaccion=Muy insatisfecho, nombre_Area=SALUD}]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:23:10.077</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">57</td>
+<td class="Message">Lo params object are: Reporte [areasUniminuto=18, nivelSatisfaccion=98,90,70,45, fechainitemp=2020-06-01, fechafintemp=2020-07-08, errorValidFormu=null]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:23:10.078</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">58</td>
+<td class="Message">Lo params are: [areas:&quot;18&quot;, nivelSatisfaccion:&quot;98,90,70,45&quot;, fecha:&quot;2020-06-01&quot;, fechaF:&quot;2020-07-08&quot;, Content-Type:&quot;application/json&quot;, Accept:&quot;application/json&quot;]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:23:10.138</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">62</td>
+<td class="Message">Response web service [{fecha_registro=2020-06-06 19:14:00, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-06 19:14:21, nivel_Satisfaccion=Satisfeho, nombre_Area=REGISTRO}, {fecha_registro=2020-06-13 15:55:32, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:05:17, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:09:31, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:10:55, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:15:02, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:22:17, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:28:25, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:34:20, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-16 19:52:17, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:31:30, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:06, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:18, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:29, nivel_Satisfaccion=Muy insatisfecho, nombre_Area=SALUD}]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:24:20.798</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">72</td>
+<td class="Message">fechas ingresadas</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:24:20.802</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">78</td>
+<td class="Message">Las fechas se pueden consultar</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:24:20.804</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">57</td>
+<td class="Message">Lo params object are: Reporte [areasUniminuto=18, nivelSatisfaccion=98,90,70,45, fechainitemp=2020-06-01, fechafintemp=2020-07-08, errorValidFormu=null]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:24:20.805</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">58</td>
+<td class="Message">Lo params are: [areas:&quot;18&quot;, nivelSatisfaccion:&quot;98,90,70,45&quot;, fecha:&quot;2020-06-01&quot;, fechaF:&quot;2020-07-08&quot;, Content-Type:&quot;application/json&quot;, Accept:&quot;application/json&quot;]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:24:20.875</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">62</td>
+<td class="Message">Response web service [{fecha_registro=2020-06-06 19:14:00, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-06 19:14:21, nivel_Satisfaccion=Satisfeho, nombre_Area=REGISTRO}, {fecha_registro=2020-06-13 15:55:32, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:05:17, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:09:31, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:10:55, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:15:02, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:22:17, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:28:25, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:34:20, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-16 19:52:17, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:31:30, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:06, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:18, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:29, nivel_Satisfaccion=Muy insatisfecho, nombre_Area=SALUD}]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:24:20.877</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">95</td>
+<td class="Message">La respuesta del servicio es la siguiente: 
+[{fecha_registro=2020-06-06 19:14:00, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-06 19:14:21, nivel_Satisfaccion=Satisfeho, nombre_Area=REGISTRO}, {fecha_registro=2020-06-13 15:55:32, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:05:17, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:09:31, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:10:55, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:15:02, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:22:17, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:28:25, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:34:20, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-16 19:52:17, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:31:30, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:06, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:18, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:29, nivel_Satisfaccion=Muy insatisfecho, nombre_Area=SALUD}]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:24:20.879</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">57</td>
+<td class="Message">Lo params object are: Reporte [areasUniminuto=18, nivelSatisfaccion=98,90,70,45, fechainitemp=2020-06-01, fechafintemp=2020-07-08, errorValidFormu=null]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:24:20.882</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">58</td>
+<td class="Message">Lo params are: [areas:&quot;18&quot;, nivelSatisfaccion:&quot;98,90,70,45&quot;, fecha:&quot;2020-06-01&quot;, fechaF:&quot;2020-07-08&quot;, Content-Type:&quot;application/json&quot;, Accept:&quot;application/json&quot;]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:24:20.941</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">62</td>
+<td class="Message">Response web service [{fecha_registro=2020-06-06 19:14:00, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-06 19:14:21, nivel_Satisfaccion=Satisfeho, nombre_Area=REGISTRO}, {fecha_registro=2020-06-13 15:55:32, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:05:17, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:09:31, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:10:55, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:15:02, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:22:17, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:28:25, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:34:20, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-16 19:52:17, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:31:30, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:06, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:18, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:29, nivel_Satisfaccion=Muy insatisfecho, nombre_Area=SALUD}]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:25:13.323</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">72</td>
+<td class="Message">fechas ingresadas</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:25:13.326</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">78</td>
+<td class="Message">Las fechas se pueden consultar</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:25:13.327</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">57</td>
+<td class="Message">Lo params object are: Reporte [areasUniminuto=18, nivelSatisfaccion=98,90,70,45, fechainitemp=2020-06-01, fechafintemp=2020-07-08, errorValidFormu=null]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:25:13.329</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">58</td>
+<td class="Message">Lo params are: [areas:&quot;18&quot;, nivelSatisfaccion:&quot;98,90,70,45&quot;, fecha:&quot;2020-06-01&quot;, fechaF:&quot;2020-07-08&quot;, Content-Type:&quot;application/json&quot;, Accept:&quot;application/json&quot;]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:25:13.415</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">62</td>
+<td class="Message">Response web service [{fecha_registro=2020-06-06 19:14:00, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-06 19:14:21, nivel_Satisfaccion=Satisfeho, nombre_Area=REGISTRO}, {fecha_registro=2020-06-13 15:55:32, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:05:17, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:09:31, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:10:55, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:15:02, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:22:17, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:28:25, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:34:20, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-16 19:52:17, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:31:30, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:06, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:18, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:29, nivel_Satisfaccion=Muy insatisfecho, nombre_Area=SALUD}]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:25:13.417</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">95</td>
+<td class="Message">La respuesta del servicio es la siguiente: 
+[{fecha_registro=2020-06-06 19:14:00, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-06 19:14:21, nivel_Satisfaccion=Satisfeho, nombre_Area=REGISTRO}, {fecha_registro=2020-06-13 15:55:32, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:05:17, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:09:31, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:10:55, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:15:02, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:22:17, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:28:25, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:34:20, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-16 19:52:17, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:31:30, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:06, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:18, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:29, nivel_Satisfaccion=Muy insatisfecho, nombre_Area=SALUD}]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:25:13.419</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">57</td>
+<td class="Message">Lo params object are: Reporte [areasUniminuto=18, nivelSatisfaccion=98,90,70,45, fechainitemp=2020-06-01, fechafintemp=2020-07-08, errorValidFormu=null]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:25:13.420</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">58</td>
+<td class="Message">Lo params are: [areas:&quot;18&quot;, nivelSatisfaccion:&quot;98,90,70,45&quot;, fecha:&quot;2020-06-01&quot;, fechaF:&quot;2020-07-08&quot;, Content-Type:&quot;application/json&quot;, Accept:&quot;application/json&quot;]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:25:13.509</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">62</td>
+<td class="Message">Response web service [{fecha_registro=2020-06-06 19:14:00, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-06 19:14:21, nivel_Satisfaccion=Satisfeho, nombre_Area=REGISTRO}, {fecha_registro=2020-06-13 15:55:32, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:05:17, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:09:31, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:10:55, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:15:02, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:22:17, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:28:25, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:34:20, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-16 19:52:17, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:31:30, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:06, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:18, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:29, nivel_Satisfaccion=Muy insatisfecho, nombre_Area=SALUD}]</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:25:55.661</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:25:55.663</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:25:55.665</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:25:55.666</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:29:41.444</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:29:41.448</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:29:41.451</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:29:41.453</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:30:26.863</td>
+<td class="Thread">http-nio-8083-exec-3</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:30:26.864</td>
+<td class="Thread">http-nio-8083-exec-3</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:30:26.865</td>
+<td class="Thread">http-nio-8083-exec-3</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:30:26.867</td>
+<td class="Thread">http-nio-8083-exec-3</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:35:21.894</td>
+<td class="Thread">http-nio-8083-exec-1</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:35:21.909</td>
+<td class="Thread">http-nio-8083-exec-1</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:35:21.910</td>
+<td class="Thread">http-nio-8083-exec-1</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:35:21.912</td>
+<td class="Thread">http-nio-8083-exec-1</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:38:01.612</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:38:01.614</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:38:01.615</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:38:01.617</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:41:20.752</td>
+<td class="Thread">http-nio-8083-exec-10</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:41:20.756</td>
+<td class="Thread">http-nio-8083-exec-10</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:41:20.757</td>
+<td class="Thread">http-nio-8083-exec-10</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:41:20.759</td>
+<td class="Thread">http-nio-8083-exec-10</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:41:25.197</td>
+<td class="Thread">http-nio-8083-exec-10</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:41:25.200</td>
+<td class="Thread">http-nio-8083-exec-10</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:41:25.201</td>
+<td class="Thread">http-nio-8083-exec-10</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:41:25.203</td>
+<td class="Thread">http-nio-8083-exec-10</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:43:00.041</td>
+<td class="Thread">http-nio-8083-exec-10</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:43:00.043</td>
+<td class="Thread">http-nio-8083-exec-10</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:43:00.045</td>
+<td class="Thread">http-nio-8083-exec-10</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:43:00.047</td>
+<td class="Thread">http-nio-8083-exec-10</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:43:47.989</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:43:47.991</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:43:47.992</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:43:47.993</td>
+<td class="Thread">http-nio-8083-exec-5</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:46:15.892</td>
+<td class="Thread">http-nio-8083-exec-1</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:46:15.894</td>
+<td class="Thread">http-nio-8083-exec-1</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:46:15.896</td>
+<td class="Thread">http-nio-8083-exec-1</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:46:15.898</td>
+<td class="Thread">http-nio-8083-exec-1</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:47:03.179</td>
+<td class="Thread">http-nio-8083-exec-9</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:47:03.184</td>
+<td class="Thread">http-nio-8083-exec-9</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:47:03.185</td>
+<td class="Thread">http-nio-8083-exec-9</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:47:03.187</td>
+<td class="Thread">http-nio-8083-exec-9</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:49:24.460</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">51</td>
+<td class="Message">El error areas enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:49:24.464</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">52</td>
+<td class="Message">El error niveless enviado es:null</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">20:49:24.467</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">53</td>
+<td class="Message">El error fechasss enviado es:null</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">20:49:24.469</td>
+<td class="Thread">http-nio-8083-exec-6</td>
+<td class="Level">ERROR</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">54</td>
+<td class="Message">El error fechasss final enviado es:null</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:50:07.936</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">72</td>
+<td class="Message">fechas ingresadas</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:50:07.941</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">78</td>
+<td class="Message">Las fechas se pueden consultar</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:50:07.944</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">57</td>
+<td class="Message">Lo params object are: Reporte [areasUniminuto=18, nivelSatisfaccion=98,90,70,45, fechainitemp=2020-06-01, fechafintemp=2020-07-08, errorValidFormu=null]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:50:07.948</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">58</td>
+<td class="Message">Lo params are: [areas:&quot;18&quot;, nivelSatisfaccion:&quot;98,90,70,45&quot;, fecha:&quot;2020-06-01&quot;, fechaF:&quot;2020-07-08&quot;, Content-Type:&quot;application/json&quot;, Accept:&quot;application/json&quot;]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:50:08.201</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">62</td>
+<td class="Message">Response web service [{fecha_registro=2020-06-06 19:14:00, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-06 19:14:21, nivel_Satisfaccion=Satisfeho, nombre_Area=REGISTRO}, {fecha_registro=2020-06-13 15:55:32, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:05:17, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:09:31, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:10:55, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:15:02, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:22:17, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:28:25, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:34:20, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-16 19:52:17, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:31:30, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:06, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:18, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:29, nivel_Satisfaccion=Muy insatisfecho, nombre_Area=SALUD}]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:50:08.203</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.controller.ReporteController</td>
+<td class="LineOfCaller">95</td>
+<td class="Message">La respuesta del servicio es la siguiente: 
+[{fecha_registro=2020-06-06 19:14:00, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-06 19:14:21, nivel_Satisfaccion=Satisfeho, nombre_Area=REGISTRO}, {fecha_registro=2020-06-13 15:55:32, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:05:17, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:09:31, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:10:55, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:15:02, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:22:17, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:28:25, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:34:20, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-16 19:52:17, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:31:30, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:06, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:18, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:29, nivel_Satisfaccion=Muy insatisfecho, nombre_Area=SALUD}]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:50:08.204</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">57</td>
+<td class="Message">Lo params object are: Reporte [areasUniminuto=18, nivelSatisfaccion=98,90,70,45, fechainitemp=2020-06-01, fechafintemp=2020-07-08, errorValidFormu=null]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">20:50:08.206</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">58</td>
+<td class="Message">Lo params are: [areas:&quot;18&quot;, nivelSatisfaccion:&quot;98,90,70,45&quot;, fecha:&quot;2020-06-01&quot;, fechaF:&quot;2020-07-08&quot;, Content-Type:&quot;application/json&quot;, Accept:&quot;application/json&quot;]</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">20:50:08.264</td>
+<td class="Thread">http-nio-8083-exec-2</td>
+<td class="Level">INFO</td>
+<td class="Logger">uniminuto.service.ReporteService</td>
+<td class="LineOfCaller">62</td>
+<td class="Message">Response web service [{fecha_registro=2020-06-06 19:14:00, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-06 19:14:21, nivel_Satisfaccion=Satisfeho, nombre_Area=REGISTRO}, {fecha_registro=2020-06-13 15:55:32, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:05:17, nivel_Satisfaccion=Aceptable, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:09:31, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:10:55, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:15:02, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:22:17, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:28:25, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-13 16:34:20, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-16 19:52:17, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:31:30, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:06, nivel_Satisfaccion=Muy satisfecho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:18, nivel_Satisfaccion=Satisfeho, nombre_Area=SALUD}, {fecha_registro=2020-06-17 13:32:29, nivel_Satisfaccion=Muy insatisfecho, nombre_Area=SALUD}]</td>
+</tr>

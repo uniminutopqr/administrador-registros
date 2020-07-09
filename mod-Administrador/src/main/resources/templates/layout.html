@@ -84,7 +84,9 @@
 // *********************************************************************************************************	  
 // Consume webservice rest calificacion general del servicio
 // *********************************************************************************************************
-
+	
+	var calificacion;
+		
 	$(document).ready(function() {
 		
 		$('#btnCalService').click(function() {
@@ -100,9 +102,10 @@
 	        dataType: 'json',
 	        
 	    }).then(function(data){
-			
-	    	console.log('serviiiiiii'+data)
-	    	$('.servicio2').append(data.promedio);
+	    	
+	    	calificacion = data.promedio;
+	    	
+	    	$('.servicio2').append(calificacion);
 	       
 	    });
 	});
@@ -185,6 +188,7 @@ $(document).ready(function(){
 			    doc.setTextColor(40);
 			    doc.setFontStyle('normal');
 			    doc.text(14, 30, 'Reporte Calificación');
+			    doc.text(120, 30, 'Promedio: '+calificacion.toUpperCase());
 			    
 			    doc.addImage(footer, 'PNG', 0, 255);
 			}
