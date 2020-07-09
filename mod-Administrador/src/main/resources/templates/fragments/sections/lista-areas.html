@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html layout:decorate="~{layout}">
+
+<head>
+	<title>Lista de Reportes</title>
+	<meta charset="UTF-8">
+	<link href="/css/style.css" rel="stylesheet" />
+	</head>
+
+<body>
+	<div class="layout-main" layout:fragment="cuerpo">
+	
+		<div class="container-principal">
+			<div role="separator" class="dropdown-divider">
+			</div>
+			<div>
+				<a th:href="@{/admin/reporte}">
+					<button>Regresar </button>
+				</a>
+				<button id="btnexport">Exportar csv </button>
+				<button id="btnpdf">Exportar pdf </button>
+			</div>
+		<br>
+			<div class="table-responsive-sm" id="tabla" style="height: 450px; overflow: scroll; ">
+				<table class="table table-sm" >
+					<thead class="thead-dark">
+						<tr>
+							<th scope="col">Fecha</th>
+							<th scope="col">Area</th>
+							<th scope="col">Nivel Satisfacción</th>
+						</tr>
+					</thead>
+					<tbody >
+						<tr th:each="registro: ${registros}">
+							<td th:text="${registro.fecha_registro}"></td>
+							<td th:text="${registro.nombre_Area}"></td>
+							<td th:text="${registro.nivel_Satisfaccion}"></td>
+							<input type="hidden" th:value="${registro}" th:attr="name='registros'" />
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<br>
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>

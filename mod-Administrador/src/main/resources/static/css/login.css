@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+
+body {
+  background:black ;
+  background-size: cover;
+  background-attachment: fixed;	 
+  font-family: 'Roboto';
+  height: 850px;
+  width: 100%;
+}
+
+.fondo-principal{
+/* 	background: url("../image/caritas.jpg"); */
+	background: url("../image/satisfaccion-laboral-1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	
+}
+
+.principal{
+	width: 30%;
+	height: 65%;
+	margin: auto;
+	margin-top: 10%;
+	background: rgba(247,247,250,0.3);
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.contenedor {
+	width: 100%;
+	height: 100%;
+	background: rgba(163,163,168,0.3);
+	margin: auto;
+	padding: 10%;
+	border-radius: 20px;
+}
+/* login */
+
+.caja-login{
+	width: 100%;
+	height: 100%;
+	background: (247,247,250,0.3);
+	margin: auto;
+	border-radius: 30px;
+}
+
+.box-user{
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.box-passwd{
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+.boto-login{
+	width: 25%;	 
+}
+
+.boton-opciones{
+	width: 100%;
+	margin-top: 30px;
+}
+
+.font-ingresar{
+	text-align:center;
+	font-family: sans-serif;
+	font-size: 60px;
+	font-style: normal;
+	margin: auto;
+}
+
+.imagen-login{
+	width:100%;
+	height: 100%;
+	background: url("../image/satisfaccion-laboral-1.jpg");
+	background-size: cover;
+	border-radius: 15px;
+}
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html layout:decorate="~{layout}">
+<head>
+<meta charset="UTF-8" />
+<link href="/css/style.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="layout-main" layout:fragment="cuerpo">
+		<aside class="aside">
+				<div class="container-menu">
+					<nav class="sidebar">
+						<div class="conteBotones">
+							<div class="box-btnInicio">
+								<button id="btn-inicio" class="btn btn-warning mt1"><i class="Content"></i></i> Filtros Reportes </button>
+							</div>
+							<div id="boxbuttons" class="box-ini-btnsFilt">
+								<button id="btnSelectAreas" class="btn btn-light"> Reporte Areas </button>
+								<button id="btnCalService" class="btn btn-light"> Calificación Servicio </button>
+								<button id="btnNivSatis" class="btn btn-light"> Nivel de Satisfaccion</button>
+								<button id="btnFilFechas" class="btn btn-light"> Reporte Fechas </button>
+							</div>
+						</div>
+					</nav>
+<!-- 					<nav th:replace="fragments/menu :: menu"> -->
+<!-- 						<span>Menu</span> -->
+<!-- 					</nav>   th:fragment="menu" -->
+				</div>
+			</aside>
+			<section class="layout-content" layout:fragment="formu">
+<!-- 		<div th:replace="fragments/alert"></div> -->
+      		<div id="boxformu" class="container-dinamic">
+            	<form id="formulario" action="#" th:action="@{/admin/generarepo}" method="post" th:object="${reporteUniminuto}">
+					<div th:if="${errorareas} != null"class="alert alert-warning" role="alert">
+						<span th:if="${errorareas} == areas" th:text="|Formulario incompleto: Seleccione una area|">
+					</div>
+					<div th:if="${errornivel} != null"class="alert alert-warning" role="alert">
+						<span th:if="${errornivel} == nivel" th:text="|Formulario incompleto: Seleccione un nivel de satisfacción|">
+					</div>
+					<div th:if="${errorfechasini} != null"class="alert alert-warning" role="alert">
+						<span th:if="${errorfechasini} == 'inicio'" th:text="|Formulario incompleto: Seleccione la fecha inicial|">
+					</div>
+					<div th:if="${errorfechasfin} != null"class="alert alert-warning" role="alert">
+						<span th:if="${errorfechasfin} == 'final'" th:text="|Formulario incompleto: Seleccione la fecha final|">
+					</div>
+					<div th:if="${errorfechasvalid} != null"class="alert alert-warning" role="alert">
+						<span th:if="${errorfechasvalid} == 'error'" th:text="|Error Fechas: La fecha inicial debe ser inferior a la fecha final                  |">
+					</div>
+					
+					<div id="boxCalService" class="container-clasi-servi" style="display: none">
+						<div class="box-lab-caligeneral">
+							<h4 class="servicio1"> La Calificación general del servicio es:  </h4><p class="servicio2"> </p>
+						</div>
+					</div>
+					<div id="boxAreasUni" class="container-areas">
+						<div class="modulos-1">
+							<div class="cajas-areasUniminuto">
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="1">CASA Uniminuto </div></div>
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="2">Registro </div></div>
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="3">Carnetización </div></div>
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="4">Biblioteca </div></div>
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="5">CAL </div></div>
+			  				</div>
+							<div class="cajas-areasUniminuto">
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="6">Graduados </div></div>
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="7">Of. Asuntos Inter </div></div>
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="8">Posgrados </div></div>
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="9">Deportes </div></div>
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="10">Centro Progresa </div></div>
+			  				</div>
+							<div class="cajas-areasUniminuto">
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="11">Salud </div></div>
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="12">RFC Empresariales </div></div>
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="13">RF Ingenieria </div></div>
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="14">RF Educación </div></div>
+			  				</div>
+							<div class="cajas-areasUniminuto">
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="15">RFC Hum y Soc </div></div>
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="16">RFC Comucinación </div></div>
+			  					<div class="areas"><div id="areasInHabilitadas" class="btn-check"><input id="areasvalid" class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="17">Recep. Uniminuto </div></div>
+			  					<div class="areas"><div id="todo" class="btn-check"><input id="areasvalid"  class="form-check-input" type="checkbox" th:field="*{areasUniminuto}" name="areasUniminuto" value="18">Todos </div></div>
+			  				</div>
+			  			</div>		
+					</div>
+					<div id="boxNivServi" class="container-boxChecks">
+						<div class="form-check form-check-inline">
+							<div class="muySatis">
+								<input class="form-check-input" type="checkbox" th:field="*{nivelSatisfaccion}" name="nivelSatisfaccion" value="98">
+					 			<label class="form-check-label" for="inlineCheckbox1">Muy Satisfecho</label>
+					 		</div>
+						</div>
+						<div class="form-check form-check-inline">
+					  		<div class="muySatis">
+					 			<input class="form-check-input" type="checkbox" th:field="*{nivelSatisfaccion}" name="nivelSatisfaccion"  value="90">
+								<label class="form-check-label" for="inlineCheckbox1">Satisfecho</label>
+				 			</div>
+						</div>
+						<div class="form-check form-check-inline">
+					 		<div class="muySatis">
+								<input class="form-check-input" type="checkbox" th:field="*{nivelSatisfaccion}" name="nivelSatisfaccion" value="70">
+				 				<label class="form-check-label" for="inlineCheckbox1">Aceptable</label>
+				  			</div>
+						</div>
+						<div class="form-check form-check-inline">
+							<div class="muySatis">
+								<input class="form-check-input" type="checkbox" th:field="*{nivelSatisfaccion}" name="nivelSatisfaccion" value="45">
+				 				<label class="form-check-label" for="inlineCheckbox1">Muy Insatisfecho</label>
+				  			</div>
+						</div>
+					</div>
+					<div id="boxFilFechas" class="container-fechas" >
+						<div class="container-fechas-ini">
+					    	<div class="fecha-inicial">  
+	                      		<label for="dataSaida">Fecha Inicial</label> 
+								<input type="date"class="form-control" id="dataSaida" 
+										th:field="*{fechainitemp}" th:value="${fechainitemp}"/>
+	          		    	</div>
+	          		    </div>
+	          		    <div class="container-fechas-fin">	
+	          		    	<div class="fecha-final">
+	                        	<label for="dataSaida">Fecha Final</label> 
+								<input type="date"class="form-control" id="dataSaida" 
+										th:field="*{fechafintemp}" th:value="${fechafintemp}"/>
+	          		    	</div>	
+						</div>
+					</div>
+					<div id="boxFilFechas" class="container-byn-generar" >
+						<a>
+						<button class="btn btn-primary" type="submit">Generar
+						</button>
+						</a>
+						
+					</div>	
+				</div>	
+		
+				</form>			
+			</div>	
+		</section>
+	</div>
+</body>
+</html>

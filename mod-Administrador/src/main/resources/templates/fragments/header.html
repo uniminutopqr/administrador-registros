@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8" />
+<!-- Bootstrap core CSS -->
+<link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="/webjars/open-iconic/font/css/open-iconic-bootstrap.min.css"
+	rel="stylesheet" />
+<!-- Custom styles for this template -->
+<link href="/css/siderbar.css" rel="stylesheet" />
+</head>
+<body>
+	<header th:fragment="cabeza">
+		<nav class="navbar">
+	        <a class="cajaEscudo">
+	          <img src="/image/escunifinal.jpg" width="200" height="50"/>
+	        </a>
+	       <button type="button"  class="btn navbar-toggle pull-left logout">
+	       		<a th:href="@{/}" > 
+			  		<i class="oi oi-circle-x" title="Cerrar Sesion"></i> 
+		   		</a> 	
+		   </button>	       
+	    </nav>
+	</header>
+</body>
+</html>

@@ -1,0 +1,574 @@
+/*
+ * Base structure
+ */
+html, body {
+	height: 100%;
+	background: #021F34;
+}
+
+
+/* ************************************************* */
+/* Header */
+/* ************************************************* */
+.navbar{
+	width: 100%; height:30%;
+	background: #021F34;
+	padding: 10px;
+	overflow: hidden;
+}
+.cajaEscudo{
+	background: white;
+	float: left;
+}
+.logout{
+	width: 5%;
+	height: 5%;
+	margin-left: 10%;
+	background-color: silver;
+	float: right;
+}
+ 
+/* ************************************************* */
+/* Main (Contenedor) */
+/* ************************************************* */
+ .contenedor-principal{
+ 	width: 100%; height: 100%;
+ 	background: white;
+ 	padding: 10px;
+ }
+ .layout-main {
+	width: 98.5%;
+	height: 93%;
+	background:silver;
+	border-radius: 3px;	
+    padding: 10px;
+    position: absolute;
+    overflow: hidden;
+}
+.aside{
+	width:20%;
+	height: 57%;
+	background: white;
+	padding: 7px;
+	border-style: none;
+	border-radius: 9px;
+	float: left;
+}
+/* .container-menu{ */
+/* 	width: 100%; height: 100%; */
+/* 	padding: 30px; */
+/* 	background-color: #0F8ACB; */
+/* 	border-radius: 9px; */
+/* } */
+.sidebar{
+	width:100%; height: 100%;
+	background: white;
+	padding: 7px;
+	border-radius: 9px;
+}
+.conteBotones{
+	width:100%; height:100%;
+	background: #021F34;
+	padding: 10px;
+	border-radius: 9px;
+}
+.box-btnInicio{
+	width:100%; height:19%;
+	background:white;
+	padding: 5px;
+	border-radius: 9px;
+	margin-bottom: 3px;
+}
+.box-ini-btnsFilt{
+	width:100%; height:80%;
+	background: white;
+	padding: 10px;
+	border-radius: 9px;
+	margin: auto;
+}
+.btn-warning{
+	width: 100%; height: 100%;
+	padding: 10px;
+}
+.btn-light{
+	width: 100%; height: 25%;
+	padding: 10px;
+	margin-bottom: 3px;
+}
+
+/* ************************************************* */
+/* Section CSS Formulario de reportes */ 
+/* ************************************************* */
+.layout-content{
+	width: 79%; height:100%;
+	background:white;
+	padding: 8px;
+	float: right;
+	border-radius: 9px;
+	margin-left: 1%;
+}
+.container-dinamic{
+	width:100%; height:100%;
+	border-radius: 5px;
+	background: gray;
+	padding: 10px;
+}
+.box-lab-caligeneral{
+	width: 90%; height: 50px;
+	background: #0F8ACB;
+	padding:5px;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 9px;
+	
+}
+.servicio1{
+	width: 50%; height: 100%;
+	background: white;
+	margin: auto;	
+	float: left;
+}
+.servicio2{
+	width: 50%; height: 100%; 
+	background: white;
+	float: right;
+}
+.container-areas{
+	width: 100%; height: 50%;
+	background: #C5C5BE;
+	padding: 5px; 
+	overflow: hidden;
+	margin-bottom: 5px;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+}
+.modulos-1{
+	width: 99%;
+	height: 90%;
+	background: white;
+	padding: 5px;
+	border-radius: 4px;
+	margin: 5px;
+	overflow: hidden;
+}
+.cajas-areasUniminuto{
+	width: 23.9%; height:80%;
+	background: ;
+	padding: 7px;
+	float: left;
+	margin: 5px;
+	border-radius: 3px;
+}
+.areas{
+	width: 100%; height:100%;
+	background: white;
+	padding: 5px;
+	margin-left: 8%;
+}
+
+
+/* CAJA DE NIVELES DE SERVICIO */
+.container-boxChecks{
+	width: 100%; height: 100%;
+	padding: 7px;
+	background: #C5C5BE;
+	margin: auto;
+	margin-bottom: 5px;
+	text-align: center;	
+}
+.form-check {
+	width: 20%;
+	height: 7%;
+	background: #0F8ACB;
+	border-radius: 9px;
+}
+.form-check-label{
+	color: black;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.muySatis{
+	width: 100%;
+	height: 10%;
+	background: white;
+	padding: 3px;
+	margin: auto;
+	margin:3px;
+	border-radius: 9px;
+}
+
+/* CAJA DE FILTROS POR FECHA*/
+.container-fechas{
+	width: 100%;
+	height: 100%;
+	background: #C5C5BE;
+	padding: 10px;
+	overflow: hidden;
+}
+.container-fechas-ini{
+	width: 40%;
+	height: 80%;
+	background: white;
+	padding: 10px;
+	margin: auto;
+	border-radius: 9px;
+	float: left;
+	margin-left: 5%;
+}
+.container-fechas-fin{
+	width: 40%;
+	height: 80%;
+	background: white;
+	padding: 10px;
+	margin: auto;
+	border-radius: 9px;
+	float: right;
+	margin-right: 5%;
+}
+.fecha-inicial{
+	width: 100%;
+	height: 100%;
+	background: rgba(163,163,168,0.3);
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 9px;
+}
+.fecha-final{
+	width: 100%;
+	height: 100%;
+	background: rgba(163,163,168,0.3);
+	float: right;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 9px;
+}
+
+/* CAJA BOTON GENERAR  */
+
+.container-byn-generar{
+	width: 100%;
+	height: 100%;
+	background: #C5C5BE;
+	padding: 10px;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
+
+.btn-primary{
+	width: 50%;
+	margin: auto;
+	margin-left:25%; 
+}
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* .panel-principal{ */
+/* 	width: 100%;height: 100%; */
+/* 	background: white; */
+/* 	position: fixed; */
+/* 	padding-top: 10px; */
+/* } */
+
+/* .container{ */
+/* 	width: 100%; */
+/* 	height: 82%; */
+/* 	background: #021F34; */
+/* 	padding: 10px; */
+/* 	border-radius: 8px; */
+/* 	margin-left: 10px; */
+/* 	margin-bottom: 5px; */
+/* } */
+ 
+/* .layout-main { */
+/* 	width: 100%; */
+/* 	height: 100%; */
+/* 	background: #B7BEC2; */
+/* 	border-radius: 3px; */
+/*     display: flex; */
+/*     padding: 15px; */
+/* /*     min-height: calc(100vh - 52px); */ */
+/*     overflow: hidden; */
+/* } */
+
+/* .container-menu{ */
+/* 	height: 92%; */
+/* 	padding: 10px; */
+/* 	background-color: #021F34; */
+/* 	border-radius: 9px; */
+/* } */
+
+/* .aside{ */
+/* 	display: block; */
+/* 	width: 30%; */
+/* 	height: 100%; */
+/* 	border-radius: 30px; */
+/* 	margin: 20px; */
+/* } */
+
+/* .container-section{ */
+/* 	width: 100%; */
+/* 	height: 100%; */
+/* 	overflow: hidden; */
+/* 	border-radius : 7px; */
+/* 	background: white; */
+/* 	padding: 100px; */
+/* } */
+
+/* .section{ */
+/* 	width: 70%; */
+/* 	height: 98%; */
+/* 	float: right; */
+/* 	background: red; */
+/* 	margin: 5px; */
+/* 	border-radius: 6px; */
+	
+/* } */
+
+/* .sidebar .nav { */
+/* 	display: block; */
+/* 	position: relative; */
+/* 	width: 80%; */
+/* 	background: white; */
+/* 	margin: auto; */
+/* 	margin-top: 15px; */
+	
+/* } */
+
+/* .sidebar .nav-item { */
+/* 	width: 80%; */
+/* 	padding: 8px; */
+/* 	margin: 10px;	 */
+/* 	background: red; */
+/* } */
+
+/* .sidebar .nav-item { */
+/* 	margin-left: 0; */
+/* } */
+
+/* .sidebar .nav-link { */
+/* 	border-radius: 8px; */
+/* }  */
+
+/* .sidebar ul li:hover a, .menu ul li.active a{ */
+/*     color: black; */
+/* } */
+
+/* .sidebar ul{ */
+/*     list-style: none; */
+/*     padding: 10px 0px; */
+/* } */
+
+/* .sidebar ul li a{ */
+/* /* 	width: 10%; */ */
+/* 	background: grey; */
+/*     display: block; */
+/*     text-align: center; */
+/*     color:white; */
+/*     padding: 10px 15px; */
+/*     white-space: nowrap; */
+/* } */
+
+/* /* */
+/*  * Sidebar */
+/*  */ */
+/* .sidebar { */
+/*     width: 20%; */
+/*     border-top: 1px solid #eee; */
+/*     border-right: 1px solid #eee;     */
+/*     background-color: black; */
+/*     flex-shrink: 0; */
+/*     overflow: hidden; */
+/*     transition: width .5s; */
+/* } */
+
+/* .sidebar .nav { */
+/* 	margin-bottom: 10px; */
+/* } */
+
+/* .sidebar .nav-item { */
+/* 	width: 80%; */
+/* 	background: rgb(249,239,31,0.7); */
+/* 	margin: auto; */
+/* } */
+
+/* .sidebar .nav-item { */
+/* 	margin: auto; */
+/* } */
+
+/* .sidebar .nav-link { */
+/* 	border-radius: 0; */
+/* }  */
+
+/* .sidebar ul li:hover a, .menu ul li.active a{ */
+/*     color: white; */
+/* } */
+
+/* .sidebar ul{ */
+/*     list-style: none; */
+/*     padding: 10px 0px; */
+/* } */
+
+/* .sidebar ul li a{ */
+/*     display: block; */
+/*     color:#1a1a1a; */
+/*     padding: 10px 15px; */
+/*     white-space: nowrap; */
+/* } */
+
+/* .sidebar.sidebar-open { */
+/*     width: 300px; */
+/* } */
+
+/* /* */
+/*  * nav-pills home */
+/*  */ */
+/* .nav-pills .nav-link.active, .nav-pills .show>.nav-link { */
+/* 	color: #fff; */
+/* 	background-color: #021F34; */
+/* } */
+
+/* /* */
+/*  * toogle do navbar do menu */
+/*  */  */
+
+/* .navbar-toggle { */
+/*     display: inline-block; */
+/*     margin-left: 10px; */
+/* } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Footer
+ */
+/* .layout-footer { */
+/* 	position: fixed; */
+/* 	left: 0; */
+/* 	right: 0; */
+/* 	bottom: 0; */
+/* 	margin: 0; */
+/* 	height: 50px; */
+/* 	border-top: 1px solid #eeeeee; */
+/* } */
+
+/* .footer-copy { */
+/* 	font-size: 92%; */
+/* 	display: block; */
+/* 	color: #777777; */
+/* 	text-align: center; */
+/* } */
